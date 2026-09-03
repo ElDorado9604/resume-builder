@@ -12,18 +12,18 @@ A minimal, production-ready web app for QA Engineers, Automation Engineers, SDET
 
 ```
 qa-resume-builder/
-✂️ frontend/           # Next.js app
-│   ✂️ src/app/        # App Router pages
-│   ✂️ src/components/ # React components
-│   ✂️ src/lib/        # Supabase client helpers
-│   └️ src/types/      # Shared TypeScript types
-✂️ backend/            # FastAPI app
-│   ✂️ main.py         # API entrypoint
-│   ✂️ models.py       # Pydantic models
-│   └️ docx_export.py  # .docx generation logic
-✂️ supabase/
-│   └️ schema.sql      # Table schema + RLS policies
-└️ render.yaml         # Render deployment blueprint
+├── frontend/           # Next.js app
+│   ├── src/app/        # App Router pages
+│   ├── src/components/ # React components
+│   ├── src/lib/        # Supabase client helpers
+│   └── src/types/      # Shared TypeScript types
+├── backend/            # FastAPI app
+│   ├── main.py         # API entrypoint
+│   ├── models.py       # Pydantic models
+│   └── docx_export.py  # .docx generation logic
+├── supabase/
+│   └── schema.sql      # Table schema + RLS policies
+└── render.yaml         # Render deployment blueprint
 ```
 
 ## Setup
