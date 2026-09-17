@@ -1,6 +1,6 @@
 # QA Resume Builder
 
-A minimal, stateless web app for QA Engineers, Automation Engineers, SDETs, and Test Engineers to build ATS-optimized resumes and export them as Word (.docx) files.
+A minimal, stateless web app for QA Engineers, Automation Engineers, SDETs, and Test Engineers to build ATS-optimized resumes and export them as Word (.docx) files. For test.
 
 No login, no database — fill in the form and download your resume.
 
